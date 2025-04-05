@@ -1,0 +1,230 @@
+body {
+    background-color: #B87333;
+    margin: 0;
+    padding: 0;
+}
+p {
+   line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
+    color: white; 
+}
+
+.off-list {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
+    color: white; 
+}
+
+.ref-heading {
+    color: #e76f51;
+    margin-bottom: 1rem;
+    font-family: 'Sour Gummy', cursive;
+}
+header {
+      background-color: #f4a261;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .menu-container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .menu-section {
+      margin-bottom: 2rem;
+    }
+    .menu-section h2 {
+      color: #e76f51;
+      border-bottom: 2px solid #e76f51;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #eaeaea;
+      font-family: 'Sour Gummy', cursive;
+        color: white;
+    }
+    .menu-item:last-child {
+      border-bottom: none;
+      font-family: 'Sour Gummy', cursive;
+    color: white;
+    }
+    .menu-item span {
+      font-weight: bold;
+    }
+    .price {
+      color: white;;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #264653;
+      color: white;
+      margin-top: 2rem;
+    }
+header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .form-container {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .tsa-container {
+    max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    .form-container h2 {
+      color: #e76f51;
+      margin-bottom: 1rem;
+     font-family: 'Sour Gummy', cursive;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+        color: white;
+    }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 1px solid #eaeaea;
+      border-radius: 5px;
+      font-size: 1rem;
+        color: #231F1D;
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+        color: #231F1D;
+    }
+    .form-group button {
+      background-color: #e76f51;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .form-group button:hover {
+      background-color: #e76f51;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #264653;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    .about-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .ravenwood-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .about-container h2 {
+      color: #e76f51;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-family: 'Sour Gummy', cursive;
+    }
+    .about-container p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
+      color: white;
+    }
+    .about-container ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin-bottom: 1rem;
+      font-family: 'Sour Gummy', cursive;
+      color: white;
+    }
+    .about-container ul li {
+      margin-bottom: 0.5rem;
+    }
+    .reference-container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1.5rem;
+      background-color: #231F1D;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+
+    }
+h3 {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Sour Gummy', cursive;
+}
+.navbar {
+    background-color: #231F1D !important; 
+}
+
+.navbar-brand {
+    color: white !important; 
+    font-size: 27px;
+}
+
+.navbar-toggler {
+    color: white !important; 
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+    color: white !important; 
+}
+.photobg {
+    width: 100%; 
+    height: auto; 
+    display: block; /* Remove any inline spacing */
+}
+
+
